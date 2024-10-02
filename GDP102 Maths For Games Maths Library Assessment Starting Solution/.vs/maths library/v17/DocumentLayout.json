@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "mathslibrary\\vector.h",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\mathslibrary\\vector.h",
               "RelativeToolTip": "mathslibrary\\vector.h",
-              "ViewState": "AQIAAJAAAAAAAAAAAAAAAE4AAAABAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAA0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-02T01:06:32.456Z",
               "EditorCaption": ""
@@ -53,7 +53,7 @@
               "RelativeDocumentMoniker": "mathslibrary\\vector.cpp",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\mathslibrary\\vector.cpp",
               "RelativeToolTip": "mathslibrary\\vector.cpp",
-              "ViewState": "AQIAACkAAAAAAAAAAAAAAHgAAAArAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAADwv3kAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-02T01:06:59.47Z",
               "EditorCaption": ""
@@ -68,8 +68,7 @@
               "RelativeToolTip": "mathslibrary\\mathslibrary.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-02T01:04:14.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T01:04:14.742Z"
             },
             {
               "$type": "Document",
@@ -79,7 +78,7 @@
               "RelativeDocumentMoniker": "maths library\\ConsoleVectorUnitTests.h",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\maths library\\ConsoleVectorUnitTests.h",
               "RelativeToolTip": "maths library\\ConsoleVectorUnitTests.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-02T01:18:25.232Z",
               "EditorCaption": ""
@@ -94,8 +93,7 @@
               "RelativeToolTip": "maths library\\ConsoleVectorUnitTests.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-02T01:18:56.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T01:18:56.766Z"
             }
           ]
         }

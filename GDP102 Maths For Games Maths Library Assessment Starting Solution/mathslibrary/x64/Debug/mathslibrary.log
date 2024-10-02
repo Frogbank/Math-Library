@@ -1,2 +1,6 @@
 ﻿  vector.cpp
-  mathslibrary.vcxproj -> C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\x64\Debug\mathslibrary.lib
+C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(105,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(110,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(121,20): error C3867: 'Vector2::normalise': non-standard syntax; use '&' to create a pointer to member
+C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(128,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(133,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data

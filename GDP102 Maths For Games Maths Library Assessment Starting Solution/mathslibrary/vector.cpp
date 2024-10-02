@@ -88,6 +88,18 @@ Vector2& Vector2::operator /= (float scalar)
 
 }
 
+float Vector2::dot(const Vector2& other) const
+{
+	return x * other.x + y * other.y;
+}
+
+// sin-1(a.b)/(|a||b|)
+
+float Vector2::angleBetween(const Vector2& other) const
+{
+	return (asin(dot(other) / (magnitude() * other.magnitude()))) * 180/3.15159f;
+}
+
 float Vector2::magnitude() const
 {
 	return sqrt(pow(x, 2) + pow(y, 2));
