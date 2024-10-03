@@ -112,8 +112,7 @@ float Vector2::magnitudeSqr() const
 
 void Vector2::normalise()
 {
-	x /= magnitude();
-	y /= magnitude();
+	*this = this->normalised();
 }
 
 Vector2 Vector2::normalised() const
@@ -397,19 +396,43 @@ float Vector4::angleBetween(const Vector4& other) const
 
 Vector4 Vector4::cross(const Vector4& other) const
 {
-
+	return { (y * other.z) - (z * other.y), (z * other.x) - (x * other.z), (x * other.y) - (y * other.x), w };
 }
 
-float magnitude() const;
+float Vector4::magnitude() const
+{
+	return sqrt(pow(x, 2) + pow(y, 2) + pow(z, 2) + pow(w, 2));
+}
 
-float magnitudeSqr() const;
+float Vector4::magnitudeSqr() const
+{
+	return pow(magnitude(), 2);
+}
 
-void normalise();
+void Vector4::normalise()
+{
+	x /= magnitude();
+	y /= magnitude();
+	z /= magnitude();
+	w /= magnitude();
+}
 
-Vector4 normalised() const
+Vector4 Vector4::normalised() const
+{
+	return { x / magnitude(), y / magnitude(), z / magnitude(), w / magnitude() };
+}
 
-float distanceTo(const Vector4& other) const;
+float Vector4::distanceTo(const Vector4& other) const
+{
+	return sqrt(pow(x - other.x, 2) + pow(y - other.y, 2) + pow(z - other.z, 2) + pow(w - other.w, 2));
+}
 
-float distanceToSqr(const Vector4& other) const
+float Vector4::distanceToSqr(const Vector4& other) const
+{
+	return pow(distanceTo(other), 2);
+}
 
-operator Vector3() const
+Vector4::operator Vector3() const
+{
+	return { x, y, z };
+}
