@@ -73,7 +73,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>$(SolutionDir)mathslibrary;$(SolutionDir)mathslibrary;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)x64\Debug;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)mathslibrary;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>$(SolutionDir)mathslibrary;$(SolutionDir)VectorMathsLibrary;$(SolutionDir)MatrixMathsLibrary;$(IncludePath)</IncludePath>
@@ -129,7 +129,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>mathslibrary.lib</AdditionalDependencies>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
     </Link>
   </ItemDefinitionGroup>
@@ -159,6 +160,11 @@
   <ItemGroup>
     <ClInclude Include="ConsoleMatrixUnitTests.h" />
     <ClInclude Include="ConsoleVectorUnitTests.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mathslibrary\mathslibrary.vcxproj">
+      <Project>{9fea91cf-6f41-4129-96f5-79f785829fd3}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

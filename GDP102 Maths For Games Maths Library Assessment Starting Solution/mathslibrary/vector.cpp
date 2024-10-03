@@ -1,5 +1,6 @@
 #include "vector.h"
 #include <cmath>
+#include <assert.h>
 
 // Vector 2:
 
@@ -257,9 +258,7 @@ float Vector3::magnitudeSqr() const
 
 void Vector3::normalise()
 {
-	x /= magnitude();
-	y /= magnitude();
-	z /= magnitude();
+	*this = this->normalised();
 }
 
 Vector3 Vector3::normalised() const
@@ -396,7 +395,11 @@ float Vector4::angleBetween(const Vector4& other) const
 
 Vector4 Vector4::cross(const Vector4& other) const
 {
-	return { (y * other.z) - (z * other.y), (z * other.x) - (x * other.z), (x * other.y) - (y * other.x), w };
+	assert((w == 0) && (other.w == 0));
+	Vector3 a = (Vector3)*this;
+	Vector3 b = (Vector3)other;
+	Vector3 c = a.cross(b);
+	return c;
 }
 
 float Vector4::magnitude() const

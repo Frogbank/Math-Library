@@ -105,6 +105,7 @@ int ConsoleVectorUnitTests::vector3Tests()
 	Vector3 v1(1, 2, 3);
 	test(v1, { 1,2,3 }, "Vector 3 constructor");
 
+
 	test(v1[0] == 1 && v1[1] == 2 && v1[2] == 3 , "Vector 3 [] operator overloading");
 
 	v1[0] = 10;
