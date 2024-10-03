@@ -97,7 +97,7 @@ float Vector2::dot(const Vector2& other) const
 
 float Vector2::angleBetween(const Vector2& other) const
 {
-	return (asin(dot(other) / (magnitude() * other.magnitude()))) * 180/3.15159f;
+	return (acos(dot(other) / (magnitude() * other.magnitude()))) * 180/3.15159f;
 }
 
 float Vector2::magnitude() const
@@ -118,8 +118,8 @@ void Vector2::normalise()
 
 Vector2 Vector2::normalised() const
 {
-	Vector2::normalise;
-	return {x, y};
+	
+	return {x / magnitude(), y / magnitude()};
 }
 
 
@@ -231,6 +231,59 @@ Vector3& Vector3::operator /= (float scalar)
 	return *this;
 }
 
+float Vector3::dot(const Vector3& other) const
+{
+	return x * other.x + y * other.y + z * other.z;
+}
+
+float Vector3::angleBetween(const Vector3& other) const
+{
+	return (acos(dot(other) / (magnitude() * other.magnitude()))) * 180 / 3.15159f;
+}
+
+Vector3 Vector3::cross(const Vector3& other) const
+{
+	return { (y * other.z) - (z * other.y), (z * other.x) - (x * other.z), (x * other.y) - (y * other.x) };
+}
+
+float Vector3::magnitude() const
+{
+	return sqrt(pow(x, 2) + pow(y, 2) + pow(z, 2));
+}
+
+float Vector3::magnitudeSqr() const
+{
+	return pow(magnitude(), 2);
+}
+
+void Vector3::normalise()
+{
+	x /= magnitude();
+	y /= magnitude();
+	z /= magnitude();
+}
+
+Vector3 Vector3::normalised() const
+{
+	return { x / magnitude(), y / magnitude(), z / magnitude() };
+}
+
+float Vector3::distanceTo(const Vector3& other) const
+{
+	return sqrt(pow(x - other.x, 2) + pow(y - other.y, 2) + pow(z - other.z, 2));
+}
+
+float Vector3::distanceToSqr(const Vector3& other) const
+{
+	return pow(distanceTo(other), 2);
+}
+
+Vector3::operator Vector4() const
+{
+	return { x, y, z, 0 };
+}
+
+
 
 
 // Vector 4:
@@ -331,3 +384,32 @@ Vector4& Vector4::operator /= (float scalar)
 	w /= scalar;
 	return *this;
 }
+
+float Vector4::dot(const Vector4& other) const
+{
+	return x * other.x + y * other.y + z * other.z + w * other.w;
+}
+
+float Vector4::angleBetween(const Vector4& other) const
+{
+	return (acos(dot(other) / (magnitude() * other.magnitude()))) * 180 / 3.15159f;
+}
+
+Vector4 Vector4::cross(const Vector4& other) const
+{
+
+}
+
+float magnitude() const;
+
+float magnitudeSqr() const;
+
+void normalise();
+
+Vector4 normalised() const
+
+float distanceTo(const Vector4& other) const;
+
+float distanceToSqr(const Vector4& other) const
+
+operator Vector3() const
