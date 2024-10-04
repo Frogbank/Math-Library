@@ -100,7 +100,10 @@ public:
 	// Add vector components here
 	union {
 		struct {
-			float x, y, z;
+			float x, y;
+			union {
+				float z, w;
+			};
 		};
 		struct {
 			float r, g, b;

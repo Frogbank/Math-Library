@@ -1,6 +1,5 @@
 #include "vector.h"
 #include <cmath>
-#include <assert.h>
 
 // Vector 2:
 
@@ -329,29 +328,23 @@ float& Vector4::operator [] (int index)
 
 Vector4 Vector4::operator + (const Vector4& other) const
 {
-	return { x + other.x, y + other.y, z + other.y, w + other.w };
+	return { x + other.x, y + other.y, z + other.z, w + other.w };
 }
 
 Vector4& Vector4::operator += (const Vector4& other)
 {
-	x += other.x;
-	y += other.y;
-	z += other.z;
-	w += other.w;
+	*this = *this + other;
 	return *this;
 }
 
 Vector4 Vector4::operator - (const Vector4& other) const
 {
-	return { x - other.x, y - other.y, z - other.y, w - other.w };
+	return { x - other.x, y - other.y, z - other.z, w - other.w };
 }
 
 Vector4& Vector4::operator -= (const Vector4& other)
 {
-	x -= other.x;
-	y -= other.y;
-	z -= other.z;
-	w -= other.w;
+	*this = *this - other;
 	return *this;
 }
 
@@ -362,10 +355,7 @@ Vector4 Vector4::operator * (float scalar) const
 
 Vector4& Vector4::operator *= (float scalar)
 {
-	x *= scalar;
-	y *= scalar;
-	z *= scalar;
-	w *= scalar;
+	*this = *this * scalar;
 	return *this;
 }
 
@@ -376,10 +366,7 @@ Vector4 Vector4::operator / (float scalar) const
 
 Vector4& Vector4::operator /= (float scalar)
 {
-	x /= scalar;
-	y /= scalar;
-	z /= scalar;
-	w /= scalar;
+	*this = *this / scalar;
 	return *this;
 }
 
@@ -395,11 +382,7 @@ float Vector4::angleBetween(const Vector4& other) const
 
 Vector4 Vector4::cross(const Vector4& other) const
 {
-	assert((w == 0) && (other.w == 0));
-	Vector3 a = (Vector3)*this;
-	Vector3 b = (Vector3)other;
-	Vector3 c = a.cross(b);
-	return c;
+	return { (y * other.z) - (z * other.y), (z * other.x) - (x * other.z), (x * other.y) - (y * other.x), w };
 }
 
 float Vector4::magnitude() const
@@ -414,10 +397,7 @@ float Vector4::magnitudeSqr() const
 
 void Vector4::normalise()
 {
-	x /= magnitude();
-	y /= magnitude();
-	z /= magnitude();
-	w /= magnitude();
+	*this = this->normalised();
 }
 
 Vector4 Vector4::normalised() const

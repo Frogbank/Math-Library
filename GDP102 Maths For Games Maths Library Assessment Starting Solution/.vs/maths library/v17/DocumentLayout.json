@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9FEA91CF-6F41-4129-96F5-79F785829FD3}|mathslibrary\\mathslibrary.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\mathslibrary\\vector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9FEA91CF-6F41-4129-96F5-79F785829FD3}|mathslibrary\\mathslibrary.vcxproj|solutionrelative:mathslibrary\\vector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9FEA91CF-6F41-4129-96F5-79F785829FD3}|mathslibrary\\mathslibrary.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\mathslibrary\\vector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9FEA91CF-6F41-4129-96F5-79F785829FD3}|mathslibrary\\mathslibrary.vcxproj|solutionrelative:mathslibrary\\vector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FEA91CF-6F41-4129-96F5-79F785829FD3}|mathslibrary\\mathslibrary.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\mathslibrary\\vector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9FEA91CF-6F41-4129-96F5-79F785829FD3}|mathslibrary\\mathslibrary.vcxproj|solutionrelative:mathslibrary\\vector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2F13523C-920C-4080-AEA7-56FF8F7D44AD}|maths library\\maths library.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\maths library\\ConsoleVectorUnitTests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2F13523C-920C-4080-AEA7-56FF8F7D44AD}|maths library\\maths library.vcxproj|solutionrelative:maths library\\ConsoleVectorUnitTests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F13523C-920C-4080-AEA7-56FF8F7D44AD}|maths library\\maths library.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\maths library\\ConsoleVectorUnitTests.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2F13523C-920C-4080-AEA7-56FF8F7D44AD}|maths library\\maths library.vcxproj|solutionrelative:maths library\\ConsoleVectorUnitTests.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F13523C-920C-4080-AEA7-56FF8F7D44AD}|maths library\\maths library.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\maths library\\ConsoleVectorUnitTests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2F13523C-920C-4080-AEA7-56FF8F7D44AD}|maths library\\maths library.vcxproj|solutionrelative:maths library\\ConsoleVectorUnitTests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9FEA91CF-6F41-4129-96F5-79F785829FD3}|mathslibrary\\mathslibrary.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\mathslibrary\\matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9FEA91CF-6F41-4129-96F5-79F785829FD3}|mathslibrary\\mathslibrary.vcxproj|solutionrelative:mathslibrary\\matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F13523C-920C-4080-AEA7-56FF8F7D44AD}|maths library\\maths library.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\maths library\\ConsoleMatrixUnitTests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2F13523C-920C-4080-AEA7-56FF8F7D44AD}|maths library\\maths library.vcxproj|solutionrelative:maths library\\ConsoleMatrixUnitTests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FEA91CF-6F41-4129-96F5-79F785829FD3}|mathslibrary\\mathslibrary.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\mathslibrary\\matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9FEA91CF-6F41-4129-96F5-79F785829FD3}|mathslibrary\\mathslibrary.vcxproj|solutionrelative:mathslibrary\\matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F13523C-920C-4080-AEA7-56FF8F7D44AD}|maths library\\maths library.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\maths library\\ConsoleMatrixUnitTests.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2F13523C-920C-4080-AEA7-56FF8F7D44AD}|maths library\\maths library.vcxproj|solutionrelative:maths library\\ConsoleMatrixUnitTests.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FEA91CF-6F41-4129-96F5-79F785829FD3}|mathslibrary\\mathslibrary.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\mathslibrary\\mathslibrary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -30,37 +46,63 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "matrix.h",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\mathslibrary\\matrix.h",
+              "RelativeDocumentMoniker": "mathslibrary\\matrix.h",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\mathslibrary\\matrix.h",
+              "RelativeToolTip": "mathslibrary\\matrix.h",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAI0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-03T22:25:54.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "matrix.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\mathslibrary\\matrix.cpp",
+              "RelativeDocumentMoniker": "mathslibrary\\matrix.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\mathslibrary\\matrix.cpp",
+              "RelativeToolTip": "mathslibrary\\matrix.cpp",
+              "ViewState": "AQIAAI8BAAAAAAAAAAAAAHkCAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-03T22:26:12.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "vector.h",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\mathslibrary\\vector.h",
               "RelativeDocumentMoniker": "mathslibrary\\vector.h",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\mathslibrary\\vector.h",
               "RelativeToolTip": "mathslibrary\\vector.h",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAA0AAAAQAAAA",
+              "ViewState": "AQIAALEAAAAAAAAAAAAAAN0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-02T01:06:32.456Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "vector.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\mathslibrary\\vector.cpp",
               "RelativeDocumentMoniker": "mathslibrary\\vector.cpp",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\mathslibrary\\vector.cpp",
               "RelativeToolTip": "mathslibrary\\vector.cpp",
-              "ViewState": "AQIAADkAAAAAAAAAAADwv3kAAAAPAAAA",
+              "ViewState": "AQIAAGIBAAAAAAAAAAAqwI8BAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-02T01:06:59.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "mathslibrary.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\mathslibrary\\mathslibrary.cpp",
               "RelativeDocumentMoniker": "mathslibrary\\mathslibrary.cpp",
@@ -72,28 +114,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ConsoleVectorUnitTests.h",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\maths library\\ConsoleVectorUnitTests.h",
               "RelativeDocumentMoniker": "maths library\\ConsoleVectorUnitTests.h",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\maths library\\ConsoleVectorUnitTests.h",
               "RelativeToolTip": "maths library\\ConsoleVectorUnitTests.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-02T01:18:25.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ConsoleVectorUnitTests.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\maths library\\ConsoleVectorUnitTests.cpp",
               "RelativeDocumentMoniker": "maths library\\ConsoleVectorUnitTests.cpp",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\maths library\\ConsoleVectorUnitTests.cpp",
               "RelativeToolTip": "maths library\\ConsoleVectorUnitTests.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "ViewState": "AQIAALcAAAAAAAAAAAAAABMBAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-02T01:18:56.766Z"
+              "WhenOpened": "2024-10-02T01:18:56.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConsoleMatrixUnitTests.h",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\maths library\\ConsoleMatrixUnitTests.h",
+              "RelativeDocumentMoniker": "maths library\\ConsoleMatrixUnitTests.h",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\maths library\\ConsoleMatrixUnitTests.h",
+              "RelativeToolTip": "maths library\\ConsoleMatrixUnitTests.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-04T05:28:19.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConsoleMatrixUnitTests.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\maths library\\ConsoleMatrixUnitTests.cpp",
+              "RelativeDocumentMoniker": "maths library\\ConsoleMatrixUnitTests.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Math-Library\\GDP102 Maths For Games Maths Library Assessment Starting Solution\\maths library\\ConsoleMatrixUnitTests.cpp",
+              "RelativeToolTip": "maths library\\ConsoleMatrixUnitTests.cpp",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAAAOwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-04T05:26:55.266Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,6 +1,6 @@
 #pragma once
 
-//#define RUN_MATRIX_UNIT_TESTS // Comment this back in to run the matrix unit tests
+#define RUN_MATRIX_UNIT_TESTS // Comment this back in to run the matrix unit tests
 
 #ifdef RUN_MATRIX_UNIT_TESTS
 #include "vector.h"
