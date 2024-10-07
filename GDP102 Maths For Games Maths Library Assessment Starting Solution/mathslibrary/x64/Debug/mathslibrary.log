@@ -1,14 +1,18 @@
-﻿  vector.cpp
-C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(105,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(110,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(127,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(132,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(250,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(255,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(270,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(275,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(390,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(395,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(410,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(415,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-  mathslibrary.vcxproj -> C:\Users\User\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\x64\Debug\mathslibrary.lib
+﻿  pch.cpp
+  mathslibrary.cpp
+  matrix.cpp
+  vector.cpp
+C:\Users\a240095\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(105,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\a240095\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(110,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\a240095\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(127,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\a240095\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(132,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\a240095\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(250,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\a240095\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(255,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\a240095\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(270,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\a240095\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(275,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\a240095\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(390,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\a240095\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(395,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\a240095\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(410,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\a240095\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\mathslibrary\vector.cpp(415,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  mathslibrary.vcxproj -> C:\Users\a240095\Documents\GitHub\Math-Library\GDP102 Maths For Games Maths Library Assessment Starting Solution\x64\Debug\mathslibrary.lib
